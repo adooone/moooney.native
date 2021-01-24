@@ -1,12 +1,29 @@
 {
-  "name": "moooney",
-  "displayName": "moooney",
+  "name": "Moooney",
+  "displayName": "Moooney",
   "expo": {
-    "name": "moooney",
-    "slug": "moooney",
-    "version": "1.0.0",
+    "name": "Moooney",
+    "slug": "Moooney",
+    "version": "0.0.1",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
   }
 }
