@@ -2,16 +2,14 @@ import styled from "styled-components/native";
 
 export const SWrapper = styled.View`
   background: #202020;
-  flex-grow: 1;
   flex-direction: row;
-  width: 100%;
   height: 80px;
   display: flex;
   justify-content: flex-start;
-  padding: 0 20px;
+  padding: 20px;
   align-items: center;
-  border-radius: 10px;
-  margin: 10px 0;
+  border-radius: 20px;
+  margin: 10px;
 `;
 
 export const SIconWrapper = styled.View`
@@ -38,7 +36,6 @@ export const SCaption = styled.Text`
 export const SDescription = styled.Text`
   color: #777;
   font-size: 16px;
-  font-family: "Righteous_400Regular";
 `;
 
 export const SDate = styled.Text`
@@ -46,5 +43,4 @@ export const SDate = styled.Text`
   color: #777;
   right: 20px;
   font-size: 16px;
-  font-family: "Righteous_400Regular";
 `;

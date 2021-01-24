@@ -9,6 +9,7 @@ import {
   SCaption,
   SBudget,
 } from "./styled";
+import { useColorScheme } from "react-native-appearance";
 
 type tProps = StackScreenProps<RootStackParamList, "Home">;
 
@@ -16,6 +17,9 @@ const HomeScreen: React.FC<tProps> = ({ navigation }) => {
   const [loaded] = useFonts({
     Righteous_400Regular,
   });
+
+  const colorScheme = useColorScheme();
+  console.log('🚀 > colorScheme', colorScheme);
 
   if (!loaded) {
     return null;

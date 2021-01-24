@@ -2,6 +2,7 @@
   "name": "Moooney",
   "displayName": "Moooney",
   "expo": {
+    "icon": "./assets/app-icon.png",
     "name": "Moooney",
     "slug": "Moooney",
     "version": "0.0.1",
@@ -24,6 +25,9 @@
         "wasm",
         "svg"
       ]
+    },
+    "android": {
+      "package": "com.adooone.Moooney"
     }
   }
 }

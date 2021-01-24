@@ -1,13 +1,14 @@
 import styled from "styled-components/native";
 
 export const SHomeView = styled.View`
-  padding: 40px 0;
+  /* padding: 40px 0; */
   align-items: center;
-  height: 100%;
+  flex: 1;
   color: #fff;
 `;
 
 export const SCaption = styled.Text`
+  margin-top: 40px;
   font-size: 40px;
   font-weight: 600;
   font-family: 'Righteous_400Regular';
@@ -17,7 +18,5 @@ export const SCaption = styled.Text`
 export const SBudget = styled.Text`
   font-size: 20px;
   font-weight: 100;
-  font-family: 'Righteous_400Regular';
-  /* color: #33dd60; */
   color: #777;
 `;

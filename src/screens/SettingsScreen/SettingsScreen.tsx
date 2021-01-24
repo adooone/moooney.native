@@ -1,11 +1,13 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import OptionsList from '~/components/organisms/OptionsList';
+import { SCaption, SSettingsView } from './styled';
 
 const SettingsScreen: React.FC = () => {
   return (
-    <View>
-      <Text>Config</Text>
-    </View>
+    <SSettingsView>
+      <SCaption>Settings</SCaption>
+      <OptionsList />
+    </SSettingsView>
   );
 };
 
